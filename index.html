@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JIRA TICKET MANAGEMENT</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="toolbox-cont">
+      <div class="toolbox-priority-cont">
+        <div class="lightpink color"></div>
+        <div class="lightblue color"></div>
+        <div class="lightgreen color"></div>
+        <div class="black color"></div>
+      </div>
+      <div class="action-btn">
+        <div class="add-btn"><i class="fas fa-plus"></i></div>
+        <div class="remove-btn"><i class="fas fa-times"></i></div>
+      </div>
+    </div>
+
+    <!-- MAIN CONTAINER IT WILL HOLD ALL THE TICKETS -->
+    <div class="main-cont">
+      <div class="ticket-cont">
+        <div class="ticket-color"></div>
+        <div class="ticket-id">#Sample Id</div>
+        <div class="task-content">Hey this is task</div>
+        <div class="ticket-lock">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+          </div>
+      </div>
+    </div>
+
+    <div class="modal-cont">
+      <textarea spellcheck="false" class="text-box"></textarea>
+      <div class="ticket-priority-color">
+        <div class="lightpink priority-color"></div>
+        <div class="lightblue priority-color"></div>
+        <div class="lightgreen priority-color"></div>
+        <div class="black priority-color border"></div>
+      </div>
+      
+    </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
